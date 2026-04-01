@@ -14,7 +14,7 @@
     <!-- Babel for JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     
-    <style>
+<style>
         @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum:wght@400;700&family=Orbitron:wght@400;700&display=swap');
         
         body { 
@@ -48,7 +48,7 @@
 <body>
     <div id="root"></div>
 
-    <script type="text/babel">
+<script type="text/babel">
         const { useState, useEffect, useRef } = React;
 
         // --- Firebase Scripts (Using Modules via script tags is tricky, using the compat versions for HTML) ---
@@ -56,11 +56,11 @@
     </script>
 
     <!-- Firebase SDKs -->
-    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
 
-    <script type="text/babel">
+<script type="text/babel">
         const { useState, useEffect, useRef } = React;
 
         // Firebase Configuration
